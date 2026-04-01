@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indirekte Rede, Aktiv und Passiv</title>
+  <meta
+    name="description"
+    content="Umfassende Übungswerkstatt zu indirekter Rede sowie Aktiv und Passiv mit drei Levels, vielen Aufgabenformaten und kombinierter Grammatikarbeit."
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="backdrop backdrop-a"></div>
+  <div class="backdrop backdrop-b"></div>
+
+  <div class="shell">
+    <header class="hero card">
+      <div class="hero-copy">
+        <p class="eyebrow">GitHub-Pages-Repo für den Deutschunterricht</p>
+        <h1>Übungswerkstatt zu indirekter Rede sowie Aktiv und Passiv</h1>
+        <p class="lead">
+          Drei umfassende Levels, gemischte Aufgabenformate, anspruchsvolle Modus- und
+          Pronomenwechsel sowie kombinierte Umbauaufträge für Satz- und Textarbeit.
+        </p>
+        <div class="hero-tags">
+          <span>3 Levels</span>
+          <span>9 Module</span>
+          <span id="heroTaskCount">54 Aufgaben</span>
+          <span>lokaler Fortschritt</span>
+          <span>Zufallstraining</span>
+        </div>
+      </div>
+
+      <aside class="hero-side card inset">
+        <h2>Didaktische Idee</h2>
+        <ul class="plain-list">
+          <li>Basis: sichere Grundmuster und klare Umformungen</li>
+          <li>Erhöhte Ansprüche: Fragen, Modalität, Perspektivwechsel, Passivvarianten</li>
+          <li>Experte: mehrschrittige Textrevisionen mit kniffligen Pronomen- und Moduslagen</li>
+        </ul>
+      </aside>
+    </header>
+
+    <main class="layout">
+      <section class="panel card metrics-panel">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Fortschritt</p>
+            <h2>Übersicht</h2>
+          </div>
+          <button id="resetProgressButton" class="button ghost" type="button">Fortschritt zurücksetzen</button>
+        </div>
+
+        <div id="statsGrid" class="stats-grid"></div>
+      </section>
+
+      <section class="panel card">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Filter</p>
+            <h2>Level, Thema und Format</h2>
+          </div>
+          <div class="inline-actions">
+            <button id="randomTaskButton" class="button primary" type="button">Zufallsaufgabe</button>
+            <button id="toggleOpenButton" class="button secondary" type="button">Nur offene Aufgaben</button>
+          </div>
+        </div>
+
+        <div class="filter-stack">
+          <div>
+            <p class="filter-label">Level</p>
+            <div id="levelFilters" class="chip-row"></div>
+          </div>
+          <div>
+            <p class="filter-label">Thema</p>
+            <div id="topicFilters" class="chip-row"></div>
+          </div>
+          <div>
+            <p class="filter-label">Format</p>
+            <div id="formatFilters" class="chip-row"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel card spotlight-panel">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Spotlight</p>
+            <h2>Fokusaufgabe</h2>
+          </div>
+        </div>
+        <div id="spotlightTask"></div>
+      </section>
+
+      <section class="panel card">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Werkzeugkasten</p>
+            <h2>Merkpunkte</h2>
+          </div>
+        </div>
+        <div id="theoryGrid" class="theory-grid"></div>
+      </section>
+
+      <section class="panel card">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Aufgabenpool</p>
+            <h2>Alle Module</h2>
+          </div>
+          <p id="resultCount" class="result-count"></p>
+        </div>
+        <div id="moduleList" class="module-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</body>
+</html>
