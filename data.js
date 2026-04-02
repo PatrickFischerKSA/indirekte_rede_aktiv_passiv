@@ -242,10 +242,10 @@ window.WORKSHOP_DATA = {
               format: "Textrevision",
               prompt: "Forme den gemischten Bericht korrekt um.",
               source: [
-                "Ausgangssatz: Jonas berichtet: „Man hat mich gestern im Sekretariat angerufen.“"
+                "Ausgangssatz: Jonas berichtet: „Das Sekretariat hat mich gestern angerufen.“"
               ],
               solution: [
-                "Jonas berichtet, er sei am Vortag im Sekretariat angerufen worden."
+                "Jonas berichtet, er sei am Vortag vom Sekretariat angerufen worden."
               ],
               focus: ["Perfekt in indirekter Rede", "Passivperfekt"]
             },
