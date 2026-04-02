@@ -951,8 +951,20 @@ window.WORKSHOP_DATA = {
       ],
       hint: "Bei wer im Aktiv brauchst du im Passiv eine Wendung mit von wem oder durch wen."
     },
+    "erhoeht-kombi-5": {
+      source: [
+        "Nora berichtet: „Ich habe die Proben schon sortiert. Morgen etikettieren wir sie neu.“"
+      ],
+      solution: [
+        "Nora berichtet, sie habe die Proben schon sortiert; am nächsten Tag würden sie neu etikettiert."
+      ],
+      hint: "Nora ist jetzt ausdrücklich die Sprecherin. Achte deshalb auf sie habe und auf den Zeitwechsel bei morgen."
+    },
     "experte-ir-1": {
-      hint: "Trenne die beiden Sprecherbezüge sauber: ihre Schwester ist nicht dasselbe wie sie selbst."
+      solution: [
+        "Eva sagte zu Daniel, ihre Schwester bringe ihm am nächsten Tag ihre eigenen Unterlagen, und sie selbst erkläre sie ihm dann."
+      ],
+      hint: "Trenne die beiden Sprecherbezüge sauber: die Schwester bringt die Unterlagen, Eva selbst erklärt sie später."
     },
     "experte-ir-3": {
       acceptedAnswers: [
@@ -967,6 +979,18 @@ window.WORKSHOP_DATA = {
       ],
       hint: "Beim Aktivieren des Satzes braucht der Befund wieder ein handelndes Subjekt."
     },
+    "experte-ap-3": {
+      title: "Zustandspassiv in der Vergangenheit",
+      prompt: "Setze die passende Form ein.",
+      source: [
+        "Als die Techniker ankamen, ______ die Anlage bereits abgeschaltet. (sein)"
+      ],
+      solution: [
+        "Als die Techniker ankamen, war die Anlage bereits abgeschaltet."
+      ],
+      focus: ["Zustandspassiv", "Ergebnis"],
+      hint: "Hier geht es um einen bereits erreichten Zustand, nicht um ein kompliziertes Plusquamperfekt."
+    },
     "experte-ap-6": {
       acceptedAnswers: [
         "Die finalen Texte sollten noch einmal geprüft werden.",
@@ -975,13 +999,31 @@ window.WORKSHOP_DATA = {
       hint: "Das lassen wird hier in eine sinnvolle passive Modalstruktur übertragen."
     },
     "experte-kombi-2": {
-      hint: "Zuerst wechselst du Saras Perspektive, dann passivierst du nur die zweite Handlung."
+      solution: [
+        "Sara sagte zu Leon, sie informiere seine Gruppe an diesem Tag, und am nächsten Tag werde der Vorschlag seiner Gruppe noch einmal geprüft."
+      ],
+      hint: "Zuerst wechselst du Saras Perspektive, dann passivierst du nur die zweite Handlung und löst euren Vorschlag eindeutig auf."
+    },
+    "experte-kombi-1": {
+      source: [
+        "Noah berichtet: „Ich habe deine Unterlagen gestern geprüft. Morgen schicken wir sie an die Kommission.“"
+      ],
+      solution: [
+        "Noah berichtet, er habe die Unterlagen am Vortag geprüft; am nächsten Tag würden sie an die Kommission geschickt."
+      ],
+      hint: "Noah ist jetzt ausdrücklich der Sprecher. Die erste Handlung ist vorzeitig, die zweite wird passivisch in die Zukunft des Berichts verschoben."
     },
     "experte-kombi-6": {
+      source: [
+        "Die Techniker berichten: „Wir haben die Geräte gestern gereinigt. Heute testen wir sie erneut, und danach schicken wir die Daten an unsere Partner.“"
+      ],
+      solution: [
+        "Die Techniker berichten, sie hätten die Geräte am Vortag gereinigt; an diesem Tag würden sie erneut getestet, und danach würden die Daten an ihre Partner geschickt."
+      ],
       acceptedAnswers: [
         "Sie berichten, sie hätten die Geräte am Vortag gereinigt; an diesem Tag würden sie erneut getestet und danach würden die Daten an ihre Partner geschickt."
       ],
-      hint: "Der Abschnitt enthält drei Zeitebenen: Vorzeitigkeit, Gegenwartsbezug des Berichts und zwei passive Folgehandlungen."
+      hint: "Die Techniker sind nun ausdrücklich genannt. Halte die drei Zeitebenen und beide Passivierungen sauber auseinander."
     }
   };
 
